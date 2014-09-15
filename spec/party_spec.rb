@@ -1,6 +1,3 @@
-require './party'
-require './person'
-
 describe "A Party" do
 
   before(:each) do
