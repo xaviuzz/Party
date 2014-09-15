@@ -1,0 +1,3 @@
+module Party
+
+end
