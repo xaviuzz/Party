@@ -4,8 +4,10 @@ describe "A Person" do
 
   end
 
-  it "It's a Party" do
+  it "is a Party" do
     expect(Person.new).to be_kind_of Party   
   end
+
+
   
 end

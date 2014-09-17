@@ -4,7 +4,7 @@ describe "A Company" do
 
   end
 
-  it "It's a Party" do
+  it "is a Party" do
     expect(Company.new).to be_kind_of Party   
   end
   

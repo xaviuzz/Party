@@ -1,0 +1,3 @@
+class NonSet < StandardError
+
+end
