@@ -16,7 +16,7 @@ describe "A Person" do
 
   it "knows its social security number" do
     a_social_security_number="1234567890"
-    a_person = Person.new(a_name, a_social_security_number)
+    a_person = Person.new("a_name", a_social_security_number)
     expect(a_person.identify).to eq(a_social_security_number)
   end
   

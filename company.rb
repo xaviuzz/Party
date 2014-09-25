@@ -1,8 +1,9 @@
 class Company
   include Party
 
-  def initialize name
-    init name
-  end 
+  def initialize name, ein
+    init name, ein
+    @ein = ein
+  end
 
 end
